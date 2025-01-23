@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fffdfd;
+            direction: rtl;
+            text-align: right;
+            margin: 0;
+            padding: 0;
+        }
+        .cont {
+            width: 100%;
+            max-width: 400px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: #716a6a 2px solid;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+     
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #555;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            border: 2px solid rgb(111, 103, 103);
+
+        }
+        textarea {
+            resize: none;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #00e1ff;
+            border: none;
+            color: rgb(37, 103, 145);
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        ::placeholder{
+            text-align: center;
+        }
+       
+        button:hover {
+            background-color: #2f9caf;
+            transform: scale(1.05);
+        }
+        @media (max-width: 768px) {
+            body{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <h2>pour contact</h2>
+        <form action="#" method="post">
+            <label for="name">nom</label>
+            <input type="text" id="name" name="name" placeholder="saisir votre name" required>
+
+            <label for="phone">numero de telephone</label>
+            <input type="tel" id="phone" name="phone" placeholder="saisir votre numero "[0-9]{10}">
+
+            <label for="message">message</label>
+            <textarea id="message" name="message" placeholder="entre votre message"rows="4" required></textarea>
+
+            <button type="submit">envoyer</button>
+        </form>
+    </div>
+
+
+        
+    <div class="contact">        
+            
+           <div class="wa">
+               <img src="wa.jpg" alt="wa" class="logo">
+              <a href="https://wa.me/+212-675720319" 
+              target="_blank">whatsapp</a>
+               
+           </div>
+           <div class="in">
+            <img src="in.jpg" alt="instagram" class="logo">
+            <a href="https://www.instagram.com/red1___9rab1?igsh=aWk5NG1kY3Z4eWE0"target="_blank">instagram</a>
+           </div>
+     </div>
+    </div>
+   
+</body>
+</html>
+</body>
+</html>
